@@ -1,8 +1,12 @@
 {
-  "_备注": "这是模板：封禁所有人。改回放行={status:licensed}；上服务器={status:licensed,server:https://你的接口/}；弹窗文字可改 block_title、block_desc、buy_text、buy_url",
-  "status": "licensed",
+  "_备注": "这是模板：封禁所有人。改回放行={status:licensed}；上服务器={status:licensed,server:https://你的接口/}；弹窗文字可改 block_title、block_desc、buy_text、buy_url；版权页文字可改 copyright_title、copyright_text（用\\n换行）；版权按钮可改 copyright_link_text（留空=不显示按钮）、copyright_link_url",
+  "status": "unlicensed",
   "block_title": "此版本未激活",
-  "block_desc": "本 App 需要购买正版授权后才可使用，请点击下方按钮完成购买或email联系81821660@qq.com。",
+  "block_desc": "本 App 需要购买正版授权后才可使用，请点击下方按钮完成购买。",
   "buy_text": "购买正版",
-  "buy_url": "https://你的购买链接/"
+  "buy_url": "https://你的购买链接/",
+  "copyright_title": "版权说明",
+  "copyright_text": "本软件由我开发，版权所有。\n未经授权不得传播或用于商业用途。",
+  "copyright_link_text": "联系开发者",
+  "copyright_link_url": "https://你的联系方式/"
 }
